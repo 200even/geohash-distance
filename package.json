@@ -1,0 +1,41 @@
+{
+  "name": "geohash-distance",
+  "version": "1.0.2",
+  "description": "Functions to calculate the distance between two geohashes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/200even/geohash-distance.git"
+  },
+  "keywords": [
+    "geohash",
+    "geocode",
+    "latitude",
+    "longitude",
+    "distance",
+    "gps"
+  ],
+  "author": "Scott Ferguson <scott@fergusoniclabs.net> (https://fergusoniclabs.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/200even/geohash-distance/issues"
+  },
+  "homepage": "https://github.com/200even/geohash-distance#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "latlon-geohash": "^1.1.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
